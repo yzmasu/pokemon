@@ -1,0 +1,18 @@
+{
+  "Fire": {
+    "attack": {
+      "superEffective": ["Grass", "Ice"],
+      "notEffective": ["Water", "Fire"],
+      "ineffective": []
+    },
+    "defense": {
+      "superEffective": ["Water"],
+      "notEffective": ["Fire", "Grass"],
+      "ineffective": []
+    }
+  },
+  "Water": {
+    //...
+  }
+  //...
+}

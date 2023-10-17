@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ポケモンタイプ効果チェッカー</title>
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!-- CSSファイルへのリンク -->
+</head>
+<body>
+
+  <h1>ポケモンタイプ効果チェッカー</h1>
+
+  <label for="type-select">タイプを選択:</label>
+  <select id="type-select">
+    <!-- オプションはJavaScriptで追加 -->
+  </select>
+
+  <h2>攻撃時</h2>
+  <p>こうかばつぐん: <span id="super-effective-attack"></span></p>
+  <p>いまひとつ: <span id="not-effective-attack"></span></p>
+  <p>無効: <span id="ineffective-attack"></span></p>
+
+  <h2>防御時</h2>
+  <p>こうかばつぐん: <span id="super-effective-defense"></span></p>
+  <p>いまひとつ: <span id="not-effective-defense"></span></p>
+  <p>無効: <span id="ineffective-defense"></span></p>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
